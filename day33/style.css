@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --navbgcolor: #343a40;
+    --navcolor: #E0E0E0 ;
+    --bodycolor: #121212;
+}
+
+body{
+    background-color: var(--bodycolor);
+}
+nav{
+    margin-top: 5px;
+    background-color: var(--navbgcolor);
+    color: var(--navcolor);
+    height: 29px;
+    position: relative;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 15px;
+    padding-left: 35px;
+   
+}
+
+#about{
+    position: absolute;
+    right: 150px;
+    
+    
+}
